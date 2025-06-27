@@ -23,7 +23,7 @@ const Contact = () => {
     setFormStatus(''); // Clear previous status
 
     try {
-      const response = await fetch('http://127.0.0.1:5000//api/submit_contact_form', {
+      const response = await fetch('http://https://peter-backend-23di.onrender.com///api/submit_contact_form', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
