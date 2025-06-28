@@ -8,14 +8,14 @@ const portfolioItems = [
     id: 1,
     title: 'Speaking Engagements',
     description: 'I spoke to people in KNUST,UMAT,University of Windsor and some Rural communities across Ghana on topics like  leadership, self-belief, education, and purpose ',
-    imageUrl: '/portfolio/speech.avif', // Placeholder path - Put actual images in /public/portfolio/
+    imageUrl: '/portfolio/speech.jpg', // Placeholder path - Put actual images in /public/portfolio/
     tags: ['Engagement', 'Speech'],
   },
   {
     id: 2,
     title: 'Built PeterHills Needy Foundation',
     description: 'I built the  PeterHills Needy Foundation which is committed to supporting underprivileged students through scholarships and mentorship. With over 34 students supported and GHS 10,000 in donations, the foundation continues to make a significant impact.',
-    imageUrl: '/portfolio/building.jpg', // Placeholder path
+    imageUrl: '/portfolio/helping the poor.jpg', // Placeholder path
     tags: ['collaboration', 'Buiding', 'training',],
   },
 

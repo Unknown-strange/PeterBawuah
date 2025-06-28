@@ -13,38 +13,44 @@ import {
 const servicesData = [
   {
     id: 1,
-    title: 'Motivational Speake',
+    title: 'Motivational Speaker',
     description: 'I deliver high-impact talks that inspire students and professionals to pursue purpose, leadership, and personal growth.',
+    image: '/portfolio/youth_talk.jpg',
     Icon: PenTool,
   },
   {
     id: 2,
     title: 'Youth Empowerment Coach',
     description: 'I guide young people to build confidence, set goals, and take charge of their future through workshops and mentorship.',
+    image: 'portfolio/youth.jpg',
     Icon:  BrainCircuit,
   },
   {
     id: 3,
     title: 'Mentorship & Advisory',
     description: 'I offer mentorship for students and aspiring leaders, helping them navigate life choices and achieve their goals.',
+    image: 'portfolio/mentorship.png',
     Icon: Briefcase,
   },
   {
     id: 4,
     title: 'Educational Program Consultant',
     description: 'I help institutions and nonprofits design effective, inspiring programs that uplift and engage young minds.',
+    image: 'portfolio/educational program consult.jpg',
     Icon: Search,
   },
   {
     id: 5,
     title: 'Nonprofit & CSR Collaboration',
     description: 'Through my foundation, I partner with individuals and organizations to support scholarships, mentorship, and youth programs.',
+    image: 'portfolio/non-profit and crt collabration.jpg',
     Icon: Briefcase,
   },
   {
     id: 6,
     title: 'Networking & Outreach',
     description: 'I connect with changemakers, educators, and advocates to build a global community dedicated to youth development.',
+    image: 'portfolio/network and outreach.jpg',
     Icon: Network,
   },
 ];
@@ -87,8 +93,17 @@ const Services = () => {
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.3, ease: "easeInOut" }}
             >
-              <h4 className="text-2xl font-bold mb-3 text-gray-800 dark:text-white">{servicesData[activeIndex].title}</h4>
-              <p className="text-gray-600 dark:text-gray-300">{servicesData[activeIndex].description}</p>
+              <img
+                src={servicesData[activeIndex].image}
+                alt={servicesData[activeIndex].title}
+                className='w-full mx-auto  md:w-1/2 h-auto rounded-lg shadow-md'
+              />
+              <div className='flex-1 text-left'>
+              <h4 className="text-2xl font-bold mb-3 text-gray-800 dark:text-white">
+                {servicesData[activeIndex].title}</h4>
+              <p className="text-gray-600 dark:text-gray-300">
+                {servicesData[activeIndex].description}</p>
+              </div>
             </motion.div>
           )}
         </AnimatePresence>

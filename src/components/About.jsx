@@ -23,11 +23,10 @@ const About = () => {
           {/* About Caption */}
           <div className="md:w-2/3 text-center md:text-left">
             <p className="text-gray-800 dark:text-gray-300 leading-relaxed mb-6">
-              I am Peter Bawuah a passionate motivational speaker, youth advocate, and philanthropist from Ghana. 
-              With a Master's degree and years of experience speaking to students in both rural and urban areas, 
-              I am on a mission to inspire, empower, and uplift the next generation of leaders.
-              I have spoken at institutions including KNUST, UMAT, and the University of Windsor. 
-              I am also the founder of the PeterHills Needy Foundation, which has supported over 34 students through scholarships and mentorship.
+              Peter Bawuah, MA <br/>
+              Peter Bawuah, MA, is an inspirational speaker, education advocate, and humanitarian dedicated to empowering the next generation.
+              As the founder of the PeterHills Needy Foundation, he has inspired over 10,000 students across rural communities in Ghana and Africa through his social media handles, particularly Facebook on Peter Bawuah TV. A former teaching assistant at KNUST, Peter has addressed audiences of over 800 students, offering both academic support and motivational guidance.
+              His commitment to youth development has led him to speak on international platforms, including engagements in Germany, Belgium, and the UK. A UN Delegate with the FWWUN, Peter continues to champion education, policy, and research initiatives aimed at uplifting underprivileged communities.
             </p>
             {/* Optional: Download Resume Button (if CV is available) */}
             {/* <a 
