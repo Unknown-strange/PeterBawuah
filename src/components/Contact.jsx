@@ -23,7 +23,7 @@ const Contact = () => {
     setFormStatus(''); // Clear previous status
 
     try {
-      const response = await fetch('https://https://peter-backend-23di.onrender.com///api/submit_contact_form', {
+      const response = await fetch('https://peter-backend-23di.onrender.com///api/submit_contact_form', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
